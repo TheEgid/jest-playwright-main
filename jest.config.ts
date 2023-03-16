@@ -13,15 +13,7 @@ const config: Config = {
   modulePaths: ["<rootDir>"],
   moduleFileExtensions: ["js", "jsx", "ts", "tsx"],
   extensionsToTreatAsEsm: [".ts", ".tsx"],
-  preset: "jest-playwright-preset",
-  testEnvironmentOptions: {
-    "jest-playwright": {
-      launchOptions: {
-        headless: true,
-      },
-      browsers: ["chromium"],
-    },
-  },
+  testPathIgnorePatterns: ["/e2e/"],
 };
 
 export default config;
