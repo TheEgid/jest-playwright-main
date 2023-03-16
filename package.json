@@ -8,7 +8,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "serve": "yarn build && serve -l 3007 -s ./build",
-    "e2e_tests": "playwright test --reporter=list ./e2e"
+    "e2e_tests": "playwright test"
   },
   "dependencies": {
     "react": "^18.2.0",

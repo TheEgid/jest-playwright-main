@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('ReactApp e2e test', async ({ page }) => {
-  await page.goto('http://localhost:3007/');
+  await page.goto('/');
 
   // Take a screenshot and compare with golden file.
   // expect(await page.screenshot()).toMatchSnapshot('01_home.png');
