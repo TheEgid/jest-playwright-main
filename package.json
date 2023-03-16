@@ -8,7 +8,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "serve": "yarn build && serve -l 3007 -s ./build",
-    "e2e_tests": "playwright test"
+    "e2e_test": "playwright test"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -23,7 +23,6 @@
     "jest": "^29.5.0",
     "@playwright/test": "^1.31.2",
     "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^14.0.0",
     "@tsconfig/create-react-app": "^1.0.3",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
